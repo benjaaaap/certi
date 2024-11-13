@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section id="container" style="display: none;">
+
+        <h3>You are looking for a cat</h3>
+
+        <article class="silver">
+            <button onclick="ocultar()" class="btn-2">OK</button>
+        </article>
+      </section>
+
+    <nav>
+        <section class="barra">
+            <div class="row">
+                <img src="img/corazon.png" class="corazon" alt="simbolo de corazon">
+                <h1 class="title">Pet Shelter</h1>
+            </div>
+
+            <ul class="enlaces">
+                <li>Find a Pet</li>
+                <li>About</li>
+                <button id="donar" class="donate">Donate</button>
+
+            </ul>
+        </section>
+        <section class="look">
+            <p class="p1">I'm looking for a...</p>
+            <p class="p2">in or near...</p>
+        </section>
+        <div class="lista">
+            <section class="listado">
+                <img src="img/patita.png" class="patita" alt="simbolo de una patita">
+                <input list="opciones" id="opcionesInput" name="opcion">
+                <datalist id="opciones">
+                    <option id="mostrar" value="Any Pet"></option>
+                    <option value="Cat"></option>
+                    <option value="Dog"></option>
+                </datalist>
+            </section>
+
+            <section class="listado">
+                <img src="img/alfiler.png" class="alfiler" alt="">
+                <input list="opciones" placeholder="City or Zip Code"  id="opcionesInput" name="opcion">
+                <datalist id="opciones">
+                    <option value="Cat"></option>
+                    <option value="Cat"></option>
+                    <option value="Cat"></option>
+                </datalist>
+
+
+                <h2 class="friend">Find your new best friend</h2>
+
+            </section>
+        </div>
+
+    </nav>
+
+    <main>
+        <section class="fondos">
+            <article class="gris centro">
+                <div>
+                    <img src="img/pepper.jpg" class="animales" alt="">
+                </div>
+                <div class="">
+                    <h2 class="pepper">Pepper</h2>
+                    <p class="p3">Pepper is a sligtly shy grey tabby, but she really loves <br> showing her human affection.</p>
+                </div>
+
+                <div class="rigth">
+                    <p class="cuenta">3 petting(s)</p>
+                    <button class="btn-1">Pet peper</button>
+                </div>
+
+            </article>
+
+            <article class="gris centro">
+                <div>
+                    <img src="img/bruce.jpg" class="animales" alt="">
+                </div>
+                <div class="">
+                    <h2 class="pepper">Bruce</h2>
+                    <p class="p3">Bruce is a loyal companion. He loves long walks and cold <br> weather.</p>
+                </div>
+
+                <div class="rigth">
+                    <p class="cuenta">5 petting(s)</p>
+                    <button class="btn-1">Pet peper</button>
+                </div>
+
+            </article>
+            <article class="gris centro">
+                <div>
+                    <img src="img/oscar.jpg" class="animales" alt="">
+                </div>
+                <div class="">
+                    <h2 class="pepper">Oscar</h2>
+                    <p class="p3">Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+                </div>
+
+                <div class="rigth">
+                    <p class="cuenta">8 petting(s)</p>
+                    <button class="btn-1">Pet peper</button>
+                </div>
+
+            </article>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
